@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+
+    <section class="sectionFirst">
+        <div class="container">
+            <header class="header">
+                <h1>Rock Paper Scissors</h1>
+                <button id="restart" class="restart-btn">Restart Game</button>
+                <div id="score" class="score">
+                    <p>Player: 0</p>
+                    <p>Computer: 0</p>
+                </div>
+            </header>
+            
+            <h2>Make Your Selection</h2>
+            <div class="choices">
+                <i id="rock" class="choice fa-regular fa-hand-back-fist fa-10x"></i>
+                <i id="paper" class="choice fa-regular fa-hand fa-10x"></i>
+                <i id="scissors" class="choice fa-regular fa-hand-scissors fa-10x"></i>
+                
+            </div>
+        </div>
+            <!-- modal section -->
+            <div class="modal">
+                <div id="result" class="modal-content"></div>
+            </div>
+    </section>
+
+    <section class="sectionTwo">
+        <div class="history-title">
+            <div>
+                <h1>Player</h1>
+                <p>Round Win</p>
+            </div>
+            <div>
+                <h1>Computer</h1>
+                <p>Round Win</p>
+            </div>
+            
+        </div>
+        
+        <div class="matchHistory">
+            <ul id="container-player"></ul>
+            <ul id="container-computer"></ul>
+        </div>
+    </section>
+
+
+
+    
+</body>
+<script src="main.js"></script>
+</html>
